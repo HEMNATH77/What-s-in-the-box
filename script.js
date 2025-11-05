@@ -14,11 +14,11 @@ guess.addEventListener("keypress", function(event) {
 
 function check(){
     var a = Number(guess.value)
-    if (a<1 || a>10){
+    if (a<1 || a>10 || isNaN(a)){
         alert("Limit 1 - 10")
     }
     else{
-    var new_num = guess.value 
+    var new_num = Number(guess.value)
     if (random_num == new_num){
         console.log("Correct")
         result.textContent = "Yes!! Correct"
@@ -43,5 +43,6 @@ function resetgame(){
   random_num = Math.floor(Math.random() * 10) + 1; // new random number
   guess.value = ""; // clear input
   result.textContent = "";
+
 
 }
