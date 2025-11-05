@@ -16,6 +16,7 @@ function check(){
     var a = Number(guess.value)
     if (a<1 || a>10 || isNaN(a)){
         alert("Should be the numbers from 1 - 10");
+    resetgame()
     }
     else{
     var new_num = Number(guess.value)
