@@ -15,7 +15,7 @@ guess.addEventListener("keypress", function(event) {
 function check(){
     var a = Number(guess.value)
     if (a<1 || a>10 || isNaN(a)){
-        alert("Limit 1 - 10")
+        alert("Should be the numbers... \nLimit 1 - 10")
     }
     else{
     var new_num = Number(guess.value)
@@ -46,3 +46,4 @@ function resetgame(){
 
 
 }
+
