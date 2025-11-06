@@ -1,7 +1,7 @@
 /* Body setup with background image */
 body {
     background: linear-gradient(135deg, #5a4633 0%, #d1b48c 100%);
-    background-image: "./image 2.jpg";
+    background-image: "./image.jpg";
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,6 +97,12 @@ button:hover {
   body {
     height: 100vh;
     padding: 20px;
+
+    /* ✅ Change background image for mobile */
+    background-image: "./image 2.jpg";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   h1 {
@@ -129,6 +135,10 @@ button:hover {
 
 /* 📱 For very small devices (mobile < 480px) */
 @media (max-width: 480px) {
+  body {
+    /* ✅ Even more optimized image for very small screens (optional) */
+    background-image: "./image 2.jpg");
+  }
   h1 {
     font-size: 1.8rem;
   }
@@ -143,3 +153,4 @@ button:hover {
   }
 
 }
+
