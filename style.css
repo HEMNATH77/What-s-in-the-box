@@ -1,7 +1,7 @@
 /* Body setup with background image */
 body {
     background: linear-gradient(135deg, #5a4633 0%, #d1b48c 100%);
-    background-image: url("./image.jpg");
+    background-image: "./image 2.jpg";
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -141,4 +141,5 @@ button:hover {
   button {
     font-size: 0.95rem;
   }
+
 }
