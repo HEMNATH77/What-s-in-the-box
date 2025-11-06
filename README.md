@@ -1,4 +1,6 @@
-# 🎯 What's in the Box !!!
+# 🎯 What's in the Box !!! 
+
+Got a  title - idea from Brad pitt's Seven Movie
 
 A fun and interactive **Number Guessing Game** built using **HTML, CSS, and JavaScript**.  
 Try your luck — can you guess the number hidden in the box?
