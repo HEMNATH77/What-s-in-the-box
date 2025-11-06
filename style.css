@@ -92,11 +92,12 @@ button:hover {
 }
 
 
-
-/* 📱 Responsive Design for Mobile View */ 
-@media (max-width: 768px) { 
-    body { height: 100vh; padding: 20px; 
-         }
+/* 📱 Responsive Design for Mobile View */
+@media (max-width: 768px) {
+  body {
+    height: 100vh;
+    padding: 20px;
+  }
 
   h1 {
     font-size: 2rem;
@@ -126,10 +127,8 @@ button:hover {
   }
 }
 
-/* 📱 For very small devices (mobile < 480px) */ 
-@media (max-width: 480px) { 
-    h1 { font-size: 1.8rem; 
-       }
+/* 📱 For very small devices (mobile < 480px) */
+@media (max-width: 480px) {
   h1 {
     font-size: 1.8rem;
   }
@@ -142,8 +141,4 @@ button:hover {
   button {
     font-size: 0.95rem;
   }
-
 }
-
-
-
