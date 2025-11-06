@@ -92,18 +92,11 @@ button:hover {
 }
 
 
-/* 📱 Responsive Design for Mobile View */
-@media (max-width: 768px) {
-  body {
-    height: 100vh;
-    padding: 20px;
 
-    /* ✅ Change background image for mobile */
-    background-image: url("./image 2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+/* 📱 Responsive Design for Mobile View */ 
+@media (max-width: 768px) { 
+    body { height: 100vh; padding: 20px; 
+         }
 
   h1 {
     font-size: 2rem;
@@ -133,12 +126,10 @@ button:hover {
   }
 }
 
-/* 📱 For very small devices (mobile < 480px) */
-@media (max-width: 480px) {
-  body {
-    /* ✅ Even more optimized image for very small screens (optional) */
-    background-image: url("./image 2.jpg");
-  }
+/* 📱 For very small devices (mobile < 480px) */ 
+@media (max-width: 480px) { 
+    h1 { font-size: 1.8rem; 
+       }
   h1 {
     font-size: 1.8rem;
   }
@@ -153,5 +144,6 @@ button:hover {
   }
 
 }
+
 
 
